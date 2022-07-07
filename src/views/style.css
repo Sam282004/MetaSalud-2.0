@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #2196F3;
+    width: 100%;
+    position: fixed;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a img {
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 45px;
+    border-radius: 45px;
+    background-color: white;
+}
+
+.ul-menu {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+
+.ul-menu li {
+    margin: auto;
+    list-style: none;
+    font-size: 28px;
+    transition: all 0.25s;
+}
+
+.ul-menu li a {
+    background-color: #369BF5;
+    color: white;
+    padding: 17px;
+    border-radius: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+.ul-menu li a:hover {
+    border: solid 1px white;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
+}
+
+.ul-menu li:hover {
+    transform: translateY(-15px);
+}
+
+.container-vector {
+    background-color: #2196F3;
+    padding-top: 190px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.container-text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 15px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.container-text h1 {
+    font-size: 65px;
+    font-weight: 900;
+    color: white;
+    line-height: 0.9;
+}
+
+.container-text p {
+    margin-top: 35px;
+    font-size: 25px;
+    color: white;
+    line-height: 1;
+}
+
+.img-vector {
+    height: 600px;
+}
+
+.container-button {
+    margin-top: 25px;
+    padding: 10px;
+    width: 200px;
+    background-color: #FEBA0B;
+    border: solid 1px #FEBA0B;
+    border-radius: 30px;
+    transition: all 0.25s;
+}
+
+.container-button:hover {
+    border: 1px solid white;
+    transform: translateY(-15px);
+}
+
+.container-button a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.asdasd {
+    font-family: 'Poppins', sans-serif;
+    max-width: 400px;
+    font-size: 60px;
+    font-weight: 900;
+}
